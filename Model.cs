@@ -20,13 +20,15 @@ namespace twozerofoureight
             foreach (View m in oList)
             {
                 m.Notify(this);
+                //lblScore = UpdateScore(((TwoZeroFourEightModel)m).GetBoard());
             }
         }
-
+         
         public void AttachObserver(View m)
         {
             oList.Add(m);
         }
+
 
     }
 }

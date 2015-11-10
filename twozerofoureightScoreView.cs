@@ -10,19 +10,27 @@ using System.Windows.Forms;
 
 namespace twozerofoureight
 {
-    public partial class Form1 : Form
+    public partial class twozerofoureightScoreView : Form, View
     {
-        public Form1()
+         
+        public twozerofoureightScoreView()
         {
             InitializeComponent();
+            
         }
 
-        public void score(string s)
+
+        public void Notify(Model m)
         {
-            label2.Text = s;
+            label2.Text = Convert.ToString(((TwoZeroFourEightModel)m).UpdateScore());
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void twozerofoureightScoreView_Load(object sender, EventArgs e)
         {
 
         }

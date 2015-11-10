@@ -1,6 +1,6 @@
 ﻿namespace twozerofoureight
 {
-    partial class Form1
+    partial class twozerofoureightScoreView
     {
         /// <summary>
         /// Required designer variable.
@@ -39,7 +39,7 @@
             label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             label1.Location = new System.Drawing.Point(240, 94);
             label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(106, 39);
+            label1.Size = new System.Drawing.Size(103, 38);
             label1.TabIndex = 0;
             label1.Text = "Score";
             label1.Click += new System.EventHandler(this.label1_Click);
@@ -53,15 +53,16 @@
             this.label2.Size = new System.Drawing.Size(0, 36);
             this.label2.TabIndex = 1;
             // 
-            // Form1
+            // twozerofoureightScoreView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(619, 497);
             this.Controls.Add(this.label2);
             this.Controls.Add(label1);
-            this.Name = "Form1";
+            this.Name = "twozerofoureightScoreView";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.twozerofoureightScoreView_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

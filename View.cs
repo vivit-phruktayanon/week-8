@@ -10,4 +10,5 @@ namespace twozerofoureight
     {
         void Notify(Model m);
     }
+
 }

@@ -249,7 +249,7 @@
             // btnLeft
             // 
             this.btnLeft.Location = new System.Drawing.Point(113, 414);
-            this.btnLeft.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLeft.Margin = new System.Windows.Forms.Padding(4);
             this.btnLeft.Name = "btnLeft";
             this.btnLeft.Size = new System.Drawing.Size(71, 55);
             this.btnLeft.TabIndex = 16;
@@ -260,7 +260,7 @@
             // btnUp
             // 
             this.btnUp.Location = new System.Drawing.Point(187, 378);
-            this.btnUp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUp.Margin = new System.Windows.Forms.Padding(4);
             this.btnUp.Name = "btnUp";
             this.btnUp.Size = new System.Drawing.Size(71, 55);
             this.btnUp.TabIndex = 17;
@@ -271,7 +271,7 @@
             // btnRight
             // 
             this.btnRight.Location = new System.Drawing.Point(260, 414);
-            this.btnRight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRight.Margin = new System.Windows.Forms.Padding(4);
             this.btnRight.Name = "btnRight";
             this.btnRight.Size = new System.Drawing.Size(71, 55);
             this.btnRight.TabIndex = 18;
@@ -282,7 +282,7 @@
             // btnDown
             // 
             this.btnDown.Location = new System.Drawing.Point(187, 457);
-            this.btnDown.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDown.Margin = new System.Windows.Forms.Padding(4);
             this.btnDown.Name = "btnDown";
             this.btnDown.Size = new System.Drawing.Size(71, 55);
             this.btnDown.TabIndex = 19;
@@ -298,6 +298,7 @@
             this.label1.Size = new System.Drawing.Size(45, 17);
             this.label1.TabIndex = 20;
             this.label1.Text = "Score";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblScore
             // 
@@ -336,7 +337,7 @@
             this.Controls.Add(this.lbl02);
             this.Controls.Add(this.lbl01);
             this.Controls.Add(this.lbl00);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TwoZeroFourEightView";
             this.Text = "Form1";
             this.ResumeLayout(false);

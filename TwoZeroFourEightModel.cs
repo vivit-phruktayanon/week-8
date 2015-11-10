@@ -36,6 +36,29 @@ namespace twozerofoureight
             board = Random(board);
             NotifyAll();
         }
+        public int UpdateScore()
+        {
+            int sum = 0;
+
+            for (int i = 0; i < 4; i++)
+            {
+
+                for (int j = 0; j < 4; j++)
+                {
+
+
+                    sum += board[i, j];
+
+
+                }
+
+            }
+
+            return sum;
+            //lblScore.Text = Convert.ToString(sum);
+
+
+        }
 
         private int[,] Random(int[,] input)
         {
